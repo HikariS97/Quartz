@@ -1,0 +1,121 @@
+{
+  "main": {
+    "id": "0f4590e35a8d699b",
+    "type": "split",
+    "children": [
+      {
+        "id": "05dc6f87e418e684",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "note.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c2f4a57d0a841025",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e559e04fac410e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ad139108cd5dfaf9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f71642e791933871",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "76d3638255727ab7",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f9bded58ab1cea3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "abc2b39dd30cedcb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "note.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "08389921879cffed",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "note.md"
+              }
+            }
+          },
+          {
+            "id": "e1f2b9dda29c00a7",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "05dc6f87e418e684",
+  "lastOpenFiles": [
+    "misc/1984 JASA T.K. Stanton Sonar Estimates of Seafloor Microroughness.pdf",
+    "detection.md",
+    "some math/Speckle Noise Related Statistics.md",
+    "Better Noted by Authors/Ronald Kessel/2003 Ronald Kessel Texture-based Discrimination of man-made and natural objects in sidescan sonar imagery.pdf",
+    "France/2007 JOE Mean–Standard Deviation Representation of Sonar Images for Echo Detection - Application to SAS Images.pdf",
+    "Attachments/Pasted image 20220719155330.png",
+    "Heriot-Watt University/2003 JOE An Automatic Approach to the Detection and Extraction of Mine Features in Sidescan Sonar.pdf",
+    "Heriot-Watt University/2006 TIP The Fusion of Large Scale Classified Side-Scan Sonar Image Mosaics.pdf",
+    "Heriot-Watt University/2004 OCEANS Fusion of Multiple Side-scan Sonar Views.pdf",
+    "University of Girona/2013 blending technique.pdf"
+  ]
+}

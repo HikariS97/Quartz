@@ -1,0 +1,139 @@
+{
+  "main": {
+    "id": "0f4590e35a8d699b",
+    "type": "split",
+    "children": [
+      {
+        "id": "2916a082952dc062",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "742ebf683900f128",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c2f4a57d0a841025",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e559e04fac410e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ad139108cd5dfaf9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f71642e791933871",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 292.5
+  },
+  "right": {
+    "id": "76d3638255727ab7",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f9bded58ab1cea3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "abc2b39dd30cedcb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "08389921879cffed",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "e1f2b9dda29c00a7",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 296.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "742ebf683900f128",
+  "lastOpenFiles": [
+    "论文整理/FLS论文整理/未命名.canvas",
+    "论文整理/FLS论文整理/odo.md",
+    "论文整理/FLS论文整理/detection.md",
+    "论文整理/FLS论文整理/calibration.md",
+    "论文整理/FLS论文整理/Singapore/2021 OCEANS Acoustic_PCD-Based_AUV_Perception_for_Enhanced_Automated_Garage_Docking.pdf",
+    "论文整理/FLS论文整理/Singapore/2016 OCEANS 3D_Object_Localization_using_Forward_Looking_Sonar_FLS_and_Optical_Camera_via_particle_filter_based_calibration_and_fusion.pdf",
+    "University of Miami/note.md",
+    "University of Miami/2017 JOE Space Carving.pdf",
+    "odo.md",
+    "detection.md",
+    "哈工大/note.md",
+    "Stevens Institute of Technology/note.md",
+    "calibration.md",
+    "上海大学/note.md",
+    "上海大学/2012 Calibration_and_Mosaicing_of_Forward-Scan_Sonar_DIDSON_Images.pdf",
+    "University of Miami/2005 OCEANS Calibration of DIDSON Forward-Scan Acoustic.pdf"
+  ]
+}
