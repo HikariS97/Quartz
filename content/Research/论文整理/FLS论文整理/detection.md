@@ -88,7 +88,7 @@ todo...
 [[2012 David P. Williams SAS and Bathymetric Data Fusion for Improved Target Classification.pdf]]
 将一个物体不同视角的 SAS 图像融合成单张多视角 SAS 图像。
 但文中使用的示例并没有解决目标被背景平滑的问题，而是像右子图所示的那样尽可能使其重合。基于特征点、区域、模板的方法均不适用于 SAS 图像（提到了基于已知物体的投影，但 Yusheng Wang 2022 OCEANS 并未引用），故提出了利用额外的信息源：Bathymetry Map 来恢复物体的高度。并且只假设了位移的存在，并没有考虑到旋转的因素。（手动旋转）
-![[Pasted image 20220719155330.png]]
+![[detection1.png]]![image](./Attachments/detection1.png)
 
 [[2013 OCEANS Hurtos A novel blending technique for two-dimensional forward-looking sonar mosaicing.pdf]]
 有两种图像融合的技术类别：1. 柔和边缘，2. seam finding 来寻找合适的切割线

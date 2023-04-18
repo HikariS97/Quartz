@@ -11,8 +11,12 @@
             "id": "742ebf683900f128",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "论文整理/FLS论文整理/detection.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "论文整理/FLS论文整理/detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +93,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "论文整理/FLS论文整理/detection.md"
+              }
             }
           },
           {
@@ -119,10 +126,14 @@
   },
   "active": "742ebf683900f128",
   "lastOpenFiles": [
-    "论文整理/FLS论文整理/未命名.canvas",
-    "论文整理/FLS论文整理/odo.md",
+    "Attachments/'Pasted.md",
+    "Attachments",
+    "论文整理/FLS论文整理/Attachments/detection1.png",
     "论文整理/FLS论文整理/detection.md",
     "论文整理/FLS论文整理/calibration.md",
+    "论文整理/视觉论文整理/note.md",
+    "论文整理/FLS论文整理/未命名.canvas",
+    "论文整理/FLS论文整理/odo.md",
     "论文整理/FLS论文整理/Singapore/2021 OCEANS Acoustic_PCD-Based_AUV_Perception_for_Enhanced_Automated_Garage_Docking.pdf",
     "论文整理/FLS论文整理/Singapore/2016 OCEANS 3D_Object_Localization_using_Forward_Looking_Sonar_FLS_and_Optical_Camera_via_particle_filter_based_calibration_and_fusion.pdf",
     "University of Miami/note.md",
