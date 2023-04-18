@@ -1,0 +1,145 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=description content="一些资源汇总   https://github.com/SoundMetrics/aris-file-sdk/tree/master/beam-width-metrics 中有官方给出的 ARIS 声呐的 beam pattern 的数据。  https://github.com/pvazteixeira/multibeam 给出了处理 DIDSON mapping 的方法。给出的 DIDSON 的 fov 是 0."><meta property="og:title" content><meta property="og:description" content="一些资源汇总   https://github.com/SoundMetrics/aris-file-sdk/tree/master/beam-width-metrics 中有官方给出的 ARIS 声呐的 beam pattern 的数据。  https://github.com/pvazteixeira/multibeam 给出了处理 DIDSON mapping 的方法。给出的 DIDSON 的 fov 是 0."><meta property="og:type" content="website"><meta property="og:image" content="https://quartz.jzhao.xyz/icon.png"><meta property="og:url" content="https://quartz.jzhao.xyz/Research/%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86/FLS%E8%AE%BA%E6%96%87%E6%95%B4%E7%90%86/calibration/"><meta property="og:width" content="200"><meta property="og:height" content="200"><meta name=twitter:card content="summary"><meta name=twitter:title content><meta name=twitter:description content="一些资源汇总   https://github.com/SoundMetrics/aris-file-sdk/tree/master/beam-width-metrics 中有官方给出的 ARIS 声呐的 beam pattern 的数据。  https://github.com/pvazteixeira/multibeam 给出了处理 DIDSON mapping 的方法。给出的 DIDSON 的 fov 是 0."><meta name=twitter:image content="https://quartz.jzhao.xyz/icon.png"><meta name=twitter:site content="_jzhao"><title>🪴 Quartz 3.3</title><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" type=image/png href=https://quartz.jzhao.xyz//icon.png><link href=https://quartz.jzhao.xyz/styles.80333fa2099c0bee674efa435fde378c.min.css rel=stylesheet><link href=https://quartz.jzhao.xyz/styles/_light_syntax.86a48a52faebeaaf42158b72922b1c90.min.css rel=stylesheet id=theme-link><script src=https://quartz.jzhao.xyz/js/darkmode.63d6a3e095d0bd2b935b62adec9dc11b.min.js></script>
+<script src=https://quartz.jzhao.xyz/js/util.00639692264b21bc3ee219733d38a8be.min.js></script>
+<link rel=preload href=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css as=style onload='this.onload=null,this.rel="stylesheet"' integrity=sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js integrity=sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx crossorigin=anonymous></script>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js integrity=sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR crossorigin=anonymous></script>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/copy-tex.min.js integrity=sha384-ww/583aHhxWkz5DEVn6OKtNiIaLi2iBRNZXfJRiY1Ai7tnJ9UXpEsyvOITVpTl4A crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/@floating-ui/core@1.2.1></script>
+<script src=https://cdn.jsdelivr.net/npm/@floating-ui/dom@1.2.1></script>
+<script defer src=https://quartz.jzhao.xyz/js/popover.aa9bc99c7c38d3ae9538f218f1416adb.min.js></script>
+<script defer src=https://quartz.jzhao.xyz/js/code-title.ce4a43f09239a9efb48fee342e8ef2df.min.js></script>
+<script defer src=https://quartz.jzhao.xyz/js/clipboard.2913da76d3cb21c5deaa4bae7da38c9f.min.js></script>
+<script defer src=https://quartz.jzhao.xyz/js/callouts.7723cac461d613d118ee8bb8216b9838.min.js></script>
+<script>const SEARCH_ENABLED=!1,LATEX_ENABLED=!0,PRODUCTION=!0,BASE_URL="https://quartz.jzhao.xyz/",fetchData=Promise.all([fetch("https://quartz.jzhao.xyz/indices/linkIndex.af76d1f03dc73be15db3b8686b717a3f.min.json").then(e=>e.json()).then(e=>({index:e.index,links:e.links})),fetch("https://quartz.jzhao.xyz/indices/contentIndex.becd37d7f937fe4afdb694554b4ed6a4.min.json").then(e=>e.json())]).then(([{index:e,links:t},n])=>({index:e,links:t,content:n})),render=()=>{const e=new URL(BASE_URL),t=e.pathname,n=window.location.pathname,s=t==n;addCopyButtons(),addTitleToCodeBlocks(),addCollapsibleCallouts(),initPopover("https://quartz.jzhao.xyz",!0);const o=document.getElementById("footer");if(o){const e=document.getElementById("graph-container");if(!e)return requestAnimationFrame(render);e.textContent="";const t=s&&!1;drawGraph("https://quartz.jzhao.xyz",t,[{"/moc":"#4388cc"}],t?{centerForce:1,depth:-1,enableDrag:!0,enableLegend:!1,enableZoom:!0,fontSize:.5,linkDistance:1,opacityScale:3,repelForce:1,scale:1.4}:{centerForce:1,depth:1,enableDrag:!0,enableLegend:!1,enableZoom:!0,fontSize:.6,linkDistance:1,opacityScale:3,repelForce:2,scale:1.2})}var i=document.getElementsByClassName("mermaid");i.length>0&&import("https://unpkg.com/mermaid@9/dist/mermaid.esm.min.mjs").then(e=>{e.default.init()});function a(n){const e=n.target,t=e.className.split(" "),s=t.includes("broken"),o=t.includes("internal-link");plausible("Link Click",{props:{href:e.href,broken:s,internal:o,graph:!1}})}const r=document.querySelectorAll("a");for(link of r)link.className.includes("root-title")&&link.addEventListener("click",a,{once:!0})},init=(e=document)=>{addCopyButtons(),addTitleToCodeBlocks(),renderMathInElement(e.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1}],macros:{'’':"'"},throwOnError:!1})}</script><script type=module>
+    import { attachSPARouting } from "https:\/\/quartz.jzhao.xyz\/js\/router.d6fe6bd821db9ea97f9aeefae814d8e7.min.js"
+    attachSPARouting(init, render)
+  </script><script defer data-domain=quartz.jzhao.xyz src=https://plausible.io/js/script.js></script>
+<script>window.plausible=window.plausible||function(){(window.plausible.q=window.plausible.q||[]).push(arguments)}</script></head><body><div id=search-container><div id=search-space><input autocomplete=off id=search-bar name=search type=text aria-label=Search placeholder="Search for something..."><div id=results-container></div></div></div><script src=https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js integrity="sha256-i3A0NZGkhsKjVMzFxv3ksk0DZh3aXqu0l49Bbh0MdjE=" crossorigin=anonymous defer></script>
+<script defer src=https://quartz.jzhao.xyz/js/full-text-search.e6e2e0c213187ca0c703d6e2c7a77fcd.min.js></script><div class=singlePage><header><h1 id=page-title><a class=root-title href=https://quartz.jzhao.xyz/>🪴 Quartz 3.3</a></h1><div class=spacer></div><div id=search-icon><p>Search</p><svg tabindex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search Icon</title><desc id="desc">Icon to open search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"/><circle cx="8" cy="8" r="7"/></g></svg></div><div class=darkmode><input class=toggle id=darkmode-toggle type=checkbox tabindex=-1>
+<label id=toggle-label-light for=darkmode-toggle tabindex=-1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="dayIcon" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35"><title>Light Mode</title><path d="M6 17.5C6 16.672 5.328 16 4.5 16h-3C.672 16 0 16.672.0 17.5S.672 19 1.5 19h3C5.328 19 6 18.328 6 17.5zM7.5 26c-.414.0-.789.168-1.061.439l-2 2C4.168 28.711 4 29.086 4 29.5 4 30.328 4.671 31 5.5 31c.414.0.789-.168 1.06-.44l2-2C8.832 28.289 9 27.914 9 27.5 9 26.672 8.329 26 7.5 26zm10-20C18.329 6 19 5.328 19 4.5v-3C19 .672 18.329.0 17.5.0S16 .672 16 1.5v3C16 5.328 16.671 6 17.5 6zm10 3c.414.0.789-.168 1.06-.439l2-2C30.832 6.289 31 5.914 31 5.5 31 4.672 30.329 4 29.5 4c-.414.0-.789.168-1.061.44l-2 2C26.168 6.711 26 7.086 26 7.5 26 8.328 26.671 9 27.5 9zM6.439 8.561C6.711 8.832 7.086 9 7.5 9 8.328 9 9 8.328 9 7.5c0-.414-.168-.789-.439-1.061l-2-2C6.289 4.168 5.914 4 5.5 4 4.672 4 4 4.672 4 5.5c0 .414.168.789.439 1.06l2 2.001zM33.5 16h-3c-.828.0-1.5.672-1.5 1.5s.672 1.5 1.5 1.5h3c.828.0 1.5-.672 1.5-1.5S34.328 16 33.5 16zM28.561 26.439C28.289 26.168 27.914 26 27.5 26c-.828.0-1.5.672-1.5 1.5.0.414.168.789.439 1.06l2 2C28.711 30.832 29.086 31 29.5 31c.828.0 1.5-.672 1.5-1.5.0-.414-.168-.789-.439-1.061l-2-2zM17.5 29c-.829.0-1.5.672-1.5 1.5v3c0 .828.671 1.5 1.5 1.5s1.5-.672 1.5-1.5v-3C19 29.672 18.329 29 17.5 29zm0-22C11.71 7 7 11.71 7 17.5S11.71 28 17.5 28 28 23.29 28 17.5 23.29 7 17.5 7zm0 18c-4.136.0-7.5-3.364-7.5-7.5s3.364-7.5 7.5-7.5 7.5 3.364 7.5 7.5S21.636 25 17.5 25z"/></svg></label><label id=toggle-label-dark for=darkmode-toggle tabindex=-1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="nightIcon" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'"><title>Dark Mode</title><path d="M96.76 66.458c-.853-.852-2.15-1.064-3.23-.534-6.063 2.991-12.858 4.571-19.655 4.571C62.022 70.495 50.88 65.88 42.5 57.5 29.043 44.043 25.658 23.536 34.076 6.47c.532-1.08.318-2.379-.534-3.23-.851-.852-2.15-1.064-3.23-.534-4.918 2.427-9.375 5.619-13.246 9.491-9.447 9.447-14.65 22.008-14.65 35.369.0 13.36 5.203 25.921 14.65 35.368s22.008 14.65 35.368 14.65c13.361.0 25.921-5.203 35.369-14.65 3.872-3.871 7.064-8.328 9.491-13.246C97.826 68.608 97.611 67.309 96.76 66.458z"/></svg></label></div></header><article><p class=meta>Last updated
+Unknown
+<a href=https://github.com/jackyzha0/quartz/tree/hugo/content/Research/%e8%ae%ba%e6%96%87%e6%95%b4%e7%90%86/FLS%e8%ae%ba%e6%96%87%e6%95%b4%e7%90%86/calibration.md rel=noopener>Edit Source</a></p><ul class=tags></ul><aside class=mainTOC><details><summary>Table of Contents</summary><nav id=TableOfContents><ol><li><a href=#具体步骤>具体步骤</a></li></ol><ol><li><a href=#相关工作>相关工作</a></li><li><a href=#相关公式推导>相关公式推导</a></li><li><a href=#基础的变换公式>基础的变换公式</a><ol><li><a href=#直角坐标系至极坐标系>直角坐标系至极坐标系</a></li><li><a href=#极坐标系至直角坐标系>极坐标系至直角坐标系</a></li><li><a href=#波束的表示>波束的表示</a></li></ol></li><li><a href=#假设直线处于投影平面>假设直线处于投影平面</a></li></ol></nav></details></aside><a href=#一些资源汇总><h1 id=一些资源汇总><span class=hanchor arialabel=Anchor># </span>一些资源汇总</h1></a><ul><li><a href=https://github.com/SoundMetrics/aris-file-sdk/tree/master/beam-width-metrics rel=noopener>https://github.com/SoundMetrics/aris-file-sdk/tree/master/beam-width-metrics</a> 中有官方给出的 ARIS 声呐的 beam pattern 的数据。</li><li><a href=https://github.com/pvazteixeira/multibeam rel=noopener>https://github.com/pvazteixeira/multibeam</a> 给出了处理 DIDSON mapping 的方法。给出的 DIDSON 的 fov 是 <em>0.5026548245743669/28.8</em>，根据表格计算出的是 <em>28.812</em>。fov 在更新 azimuth 的过程中<strong>还是赋值成了 <em>28.812</em></strong>。每次更新 azimuth 后，需要用 5 阶的曲线拟合 azimuth table。在计算 lookUpTable 时需注意， res 应该是一个合理的值。在 pivazteixeira 的计算中很有可能是一个极小的值，甚至可能是 0（当 rmin = 0 时）。其中，coefficients 的计算与 Matlab 相同。</li><li><a href=http://www.soundmetrics.com/My-Account/Downloads/DIDSON/Products/DIDSON-300m/DIDSON-300m-Product-Specs-English.pdf rel=noopener>http://www.soundmetrics.com/My-Account/Downloads/DIDSON/Products/DIDSON-300m/DIDSON-300m-Product-Specs-English.pdf</a> 官方给出的 DIDSON fov 为 29°</li><li>官方的邮件回复中告知 ARIS 的 beam width 是由多个 lens 的平均组成，标定是 27.8°。官方的 GitHub 文件中若按 beam&rsquo;s center 计算则是 27.625°，按照最左侧至最右侧计算为 27.839°。</li><li>官方提到 lens 的硬件上，DIDSON 与 ARIS 是一样的，只是官方的软件在处理 DIDSON 时用的是 curve fit，在处理 ARIS 时为 table。</li><li>2005 OCEANS Calibration 中给出的官方数值为：
+$$
+s(a_3\theta ^3+a_2\theta ^2 + a_1\theta + a_0)
+$$
+其中，$s=1.012$, $a_3 = 0.0030$, $a_2=-0.0056$, $a_1=2.7151$, $a_0=48.62$.</li><li>2020 年更新的 DIDSON Matlab 脚本中数值为：
+$s=1.012$, $a_3 = 0.0030$, $a_2=-0.0055$, $a_1=2.6829$, $a_0=48.04$.</li><li></li></ul><ol><li>对于 ARIS 声呐，拿到的是 <code>BeamLookUpTable</code>，对于 DIDSON，pvazteixeira 既给出了 table，也可从 Matlab 一样的系数进行计算。</li><li>图的分辨率应可任意选择，默认高度与 polar 图像的 bin 的个数一致。</li><li>图上的每一个像素点会产生一个角度，当为系数时，角度可以方便地转换成 BeamNum；当为 <code>BeamLookUpTable</code> 时，既可以通过拟合曲线再计算 BeamNum，也可以通过 BeamWidth 直接归到某一个 BeamNum 里。不过曲线拟合的方式可以更简单地进行线性插值。</li></ol><a href=#具体步骤><h2 id=具体步骤><span class=hanchor arialabel=Anchor># </span>具体步骤</h2></a><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>meters_per_bin = (maxr - minr) / num_bins
+</span></span><span class=line><span class=cl>meters_per_pixel = 0.01
+</span></span><span class=line><span class=cl>res = meters_per_pixel
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>width_in_meters = maxr*(sin(maxa) - sin(mina))
+</span></span><span class=line><span class=cl>width_in_pixels = ceil(width_in_meters / meters_per_pixel)
+</span></span><span class=line><span class=cl>xres = width_in_meters / width_in_pixels
+</span></span><span class=line><span class=cl>x0 = 
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>height_in_meters = maxr - minr * cos(min(abs(maxa) abs(mina)))
+</span></span><span class=line><span class=cl>height_in_pixels = ceil(height_in_meters / meters_per_pixel)
+</span></span><span class=line><span class=cl>yres = height_in_meters / height_in_pixels
+</span></span><span class=line><span class=cl>y0 = 
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl># res / xres / yres 有微小的差别。res 越小，差别也应越小。
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl># 创建
+</span></span><span class=line><span class=cl>(mag, angle) = cv2.cartToPolar(x.flatten(), y.flatten())
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>row_polar = mag
+</span></span><span class=line><span class=cl>col_polar = angle
+</span></span></code></pre></td></tr></table></div></div><hr><p><a class="internal-link broken">2005 OCEANS Calibration of DIDSON Forward-Scan Acoustic.pdf</a>
+做一个方框
+<a class="internal-link broken">Pasted image 20221028103203.png</a>
+假设完上面每一个点的坐标，则可通过外参（至相机坐标系）、映射（包含内参的 3D -> 2D 过程）得到两个测量。目前主要是对 Beams 进行矫正，一个点为一次测量，但有 4 个未知量。假设一次观测中有 K 个点，则有 K 个测量，未知量为 6 + 4，则需要 $K \ge 10$ 才能解出三次多项式的 4 个未知数。在这个过程中，图像中的点（提取、位置确定）与方框实物上的点的匹配关系是已知的。</p><p><strong>可能存在的问题</strong></p><ol><li>由于量化误差的存在，可能点越近越集中，数值计算越不稳定（可从矩阵条件数推断）。</li><li>三次多项式不一定好。</li><li>交替推断的方式的收敛不一定是最优。</li></ol><p><strong>提出一个新的方法可以具有的优点</strong></p><ol><li>不需要标定物，只需要海底一些特征等</li><li>不依赖于三次多项式</li><li>jointly optimization</li></ol><a href=#采用直线信息进行校准><h1 id=采用直线信息进行校准><span class=hanchor arialabel=Anchor># </span>采用直线信息进行校准</h1></a><a href=#相关工作><h2 id=相关工作><span class=hanchor arialabel=Anchor># </span>相关工作</h2></a><ol><li>上海大学 <a class="internal-link broken">2012 Detection and Tracking of Underwater Object Based on Forward-Scan Sonar.pdf</a></li><li>上海大学，类似的共两篇，都发在 AOR 上<a class="internal-link broken">2021 Applied Ocean Research A submarine pipeline segmentation method for noisy forward-looking sonar.pdf</a></li><li><a class="internal-link broken">2021 JOE 泰国 A_Pipeline_Extraction_Algorithm_for_Forward-Looking_Sonar_Images_Using_the_Self-Organizing_Map.pdf</a><ol><li>CFAR</li><li>先扩张后消除小片区域以提取连接的管道（hyperparameters多得离谱）</li><li>利用 Self-Organizing Map 用一维分段直线去拟合二维管道（应有一定的必要性）</li></ol></li><li>2022 OCEANS Hampton Roads &mdash; Real-time Wall Identification for Underwater Mapping using Imaging Sonar。用了 MSIS 和 Hough Transform 检测墙等平面（所形成的直线）</li><li></li></ol><a href=#相关公式推导><h2 id=相关公式推导><span class=hanchor arialabel=Anchor># </span>相关公式推导</h2></a><a href=#基础的变换公式><h2 id=基础的变换公式><span class=hanchor arialabel=Anchor># </span>基础的变换公式</h2></a><a href=#直角坐标系至极坐标系><h3 id=直角坐标系至极坐标系><span class=hanchor arialabel=Anchor># </span>直角坐标系至极坐标系</h3></a><p>$$
+\mathbf{p}=\left[\begin{array}{l}
+x \\ y \\ z
+\end{array}\right]=\left[\begin{array}{c}
+r \cos \theta \cos \phi \\ r \sin \theta \cos \phi \\ r \sin \phi
+\end{array}\right]
+$$</p><a href=#极坐标系至直角坐标系><h3 id=极坐标系至直角坐标系><span class=hanchor arialabel=Anchor># </span>极坐标系至直角坐标系</h3></a><p>$$
+\mathbf{s}=\left[\begin{array}{l}
+r \\ \theta \\ \phi
+\end{array}\right]=
+\left[\begin{array}{c}
+\sqrt{x^2+y^2+z^2} \\ \arctan 2(y, x) \\ \arctan 2\left(z, \sqrt{x^2+y^2}\right)
+\end{array}\right]
+$$</p><a href=#波束的表示><h3 id=波束的表示><span class=hanchor arialabel=Anchor># </span>波束的表示</h3></a><p>假设共有波束$N$个，第$n$个波束的开角为：
+$$\theta_n, n\in {1, 2, 3,&mldr;,N}$$
+同时，用：
+$$
+\theta_{n, n+1}, n\in{1, 2, 3,&mldr;,N-1}
+$$
+表示$\theta_n$与$\theta_{n+1}$之间的距离（弧度）。</p><a href=#假设直线处于投影平面><h2 id=假设直线处于投影平面><span class=hanchor arialabel=Anchor># </span>假设直线处于投影平面</h2></a><p>则直线上处处 $\phi=0$。</p><p>进一步假设直线贯穿声呐视角，我们会得到这样的一组数据：
+$$
+\mathbf{p}<em>l = {\theta</em>{n},r_{n}},n\in {1, 2, 3,&mldr;,N},
+$$
+其中，$r$来自于<strong>真实的</strong>$\theta$的采样，$\mathbf{p}<em>l$为表达直线的一组点。这组点在直角坐标系下呈现<strong>非均匀采样</strong>。假设一条直线为：
+$$
+ax+by+cz=d,
+$$
+通过转换公式可以得：
+$$
+a(r \cos \theta \cos \phi)+b(r \cos\phi \sin\theta)+c(r\sin\phi)=d.
+$$
+由于$\phi=0$，则简化为：
+$$
+a(r \cos \theta)+b(r\sin\theta)=d.
+$$
+根据$N$个测量点，得到：
+$$
+\left[
+\begin{array}{c}
+r_1\cos\theta</em>{1} & r_1\sin\theta_{1} & -1 \\ r_2\cos\theta_{2} & r_2\sin\theta_{2} & -1 \\ &mldr; & &mldr; & &mldr;\\ r_N\cos\theta_{N} & r_N\sin\theta_{N} & -1 \\ \end{array}
+\right]
+\left[
+\begin{array}{c}
+a \\ b \\ d
+\end{array}
+\right]</p><p>=</p><p>\mathbf{0}^{N \times 1}
+,
+$$
+形式为：
+$$
+\mathbf{Ax } = \mathbf{0}
+$$
+$\mathbf{A}^T\mathbf{A}$最小特征值对应的特征向量即为解，即求得直线方程。求得直线方程后可求得每一个$\theta$所映射的点与直线的距离（沿弧线）：
+$$
+\mathcal{L}<em>i = \mathop{\arg\min}</em>{\theta_{\text{new}\in{\theta_{\text{new1}}, \theta_{\text{new2}}}}} (\theta_{\text{new}} - \theta_{\text{old}}),
+$$
+$$
+{\theta_{\text{new1}}, \theta_{\text{new2}}} = \arcsin(\frac{2bp\pm\sqrt{4a^2(a^2+b^2-p^2)}}{2(a^2+b^2)}),
+$$
+$$
+p = \frac{d-cr\sin(\phi)}{r\cos(\phi)}.
+$$
+$\mathcal{L}$的下标表示第几条直线。最终
+$$
+\mathcal{L} = \frac{1}{N_{\text{L}}}\sum^{N_{\text{L}}}_{i=1}\mathcal{L}_i
+$$
+实操发现一轮更新即陷入局点。故改为优化直线方程参数。</p><p>设直线$L_i, i\in{1, 2, &mldr;, N_{\text{L}} }$的参数为$a_i, b_i, c_i, d_i$，其对应的距离采样为 $\mathbf{r}<em>i$，则对应的角度为：
+$$
+\sin{\mathbf{\theta}<em>i} = \min(\frac{2b_ip_i\pm\sqrt{4a_i^2(a_i^2+b_i^2-p_i^2)}}{2(a_i^2+b_i^2)}).
+$$
+由于通常$-\frac{\pi}{2} &lt; \theta &lt; \frac{\pi}{2}$，故用$\sin{\theta}$代替$\theta$可行。因为同一款声呐的$\theta$一致，则有：
+$$
+\mathcal{L} =\mathop{\arg\min}</em>{a_1, b_1,c_1,d_1,&mldr;,a</em>{N_\text{L}}, b_{N_\text{L}},c_{N_\text{L}},d_{N_\text{L}}}
+\sum_{i=1}^{N_\text{L}} (\sin\theta_i - \mu)^2.
+$$
+其中，$\mu = \frac{1}{N_\text{L}}\sum_{i=1}^{N_\text{L}}\sin\theta_i$ 。</p></article><hr><div class=page-end id=footer><div class=backlinks-container><h3>Backlinks</h3><ul class=backlinks><li>No backlinks found</li></ul></div><div><script src=https://cdn.jsdelivr.net/npm/d3@6.7.0/dist/d3.min.js integrity="sha256-+7jaYCp29O1JusNWHaYtgUn6EhuP0VaFuswhNV06MyI=" crossorigin=anonymous></script><h3>Interactive Graph</h3><div id=graph-container></div><style>:root{--g-node:var(--secondary);--g-node-active:var(--primary);--g-node-inactive:var(--visited);--g-link:var(--outlinegray);--g-link-active:#5a7282}</style><script src=https://quartz.jzhao.xyz/js/graph.6579af7b10c818dbd2ca038702db0224.js></script></div></div><div id=contact_buttons><footer><p>Made by Jacky Zhao using <a href=https://github.com/jackyzha0/quartz>Quartz</a>, © 2023</p><ul><li><a href=https://quartz.jzhao.xyz/>Home</a></li><li><a href=https://twitter.com/_jzhao>Twitter</a></li><li><a href=https://github.com/jackyzha0>GitHub</a></li></ul></footer></div></div></body></html>
