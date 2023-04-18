@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2916a082952dc062",
+        "id": "58dc473c6023a2af",
         "type": "tabs",
         "children": [
           {
-            "id": "742ebf683900f128",
+            "id": "486b5c74d9806ba6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "main",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -124,13 +124,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "742ebf683900f128",
+  "active": "486b5c74d9806ba6",
   "lastOpenFiles": [
-    "Attachments/'Pasted.md",
-    "Attachments",
-    "论文整理/FLS论文整理/Attachments/detection1.png",
-    "论文整理/FLS论文整理/detection.md",
     "论文整理/FLS论文整理/calibration.md",
+    "Pasted image 20220726215903.png.md",
+    "论文整理/FLS论文整理/detection.md",
+    "论文整理/FLS论文整理/Attachments/Pasted image 20220726215903.png",
+    "Attachments/Pasted image 20230418150739.png",
+    "论文整理/test.md",
+    "论文整理/FLS论文整理/Attachments/detection1.png",
+    "Attachments/'Pasted.md",
+    "论文整理/FLS论文整理/Flow-based/main.md",
+    "论文整理/FLS论文整理/University of Florence/main.md",
+    "论文整理/FLS论文整理/哈工程/note.md",
+    "Attachments",
     "论文整理/视觉论文整理/note.md",
     "论文整理/FLS论文整理/未命名.canvas",
     "论文整理/FLS论文整理/odo.md",

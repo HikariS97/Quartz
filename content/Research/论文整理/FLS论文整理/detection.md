@@ -45,7 +45,8 @@ highlight-shadow pattern recognition 是过去水下目标检测的重要手段�
 应用声呐拼接图像提高信噪比，提升 MCM 的成功率。
 避免从各个角度照射物体，比如 parallel and perpendicular 来造两个图
 
-> This ensures a consistent representation of the target
+![Pasted image 20220726215903.png](https://cdn.jsdelivr.net/gh/HikariS97/gallery@main/Pasted%20image%2020220726215903.png)
+
 
 同样避免 loop closure 以防止离谱的优化
 采用 DGPS/INS 与 Correlation 结合的方式
